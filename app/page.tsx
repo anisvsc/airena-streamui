@@ -4,7 +4,7 @@ import CommentBox from "./components/comment-box";
 
 export default function Home() {
   return (
-    <div className="py-4 flex lg:gap-8 gap-4 flex-col lg:flex-row">
+    <div className="lg:py-4 flex lg:gap-8 gap-4 flex-col lg:flex-row">
       {/* left side */}
       <div className="lg:w-[70%] w-full min-h-screen">
         <VideoPlayer />
