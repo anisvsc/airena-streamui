@@ -8,21 +8,21 @@ export default function VideoPlayer() {
       <div className="aspect-video rounded-2xl bg-primary-foreground/50 flex justify-center items-center">video player here</div>
 
       {/* user stuff */}
-      <div className="flex justify-between items-center mt-4">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center mt-4 gap-4">
         {/* left */}
-        <div className=" flex gap-4 justify-between">
-          <div className=" rounded-full p-4 bg-primary-foreground/50 border">
-            <User />
+        <div className=" flex gap-4 lg:justify-between">
+          <div className=" rounded-full bg-primary-foreground/50 border size-10 flex justify-center items-center">
+            <User className="size-4 lg:size-5" />
           </div>
           <div>
-            <h2 className="text-lg font-bold">Summer Fashion Collection 2024</h2>
-            <p className="text-primary/40 text-sm">Sarah Style - Fashion and Beauty</p>
+            <h2 className="text-base font-bold lg:text-base">Summer Fashion</h2>
+            <p className="text-primary/40 text-sm lg:text-xs">Sarah Style - Fashion and Beauty</p>
           </div>
         </div>
 
         {/* right */}
-        <div className="flex justify-between items-center gap-4">
-          <Button>
+        <div className="flex lg:justify-between items-center gap-4">
+          <Button className="rounded-full" size={"sm"}>
             <Plus /> Follow
           </Button>
 
