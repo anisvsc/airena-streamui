@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="py-4 flex gap-8 flex-col lg:flex-row">
       {/* left side */}
-      <div className="lg:w-[60vw] w-full min-h-screen">
+      <div className="lg:w-[70%] w-full min-h-screen">
         <VideoPlayer />
         <CommentBox />
       </div>
