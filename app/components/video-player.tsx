@@ -33,7 +33,7 @@ export default function VideoPlayer() {
       </div>
 
       {/* likes and all */}
-      <div className="flex gap-6 mt-2">
+      <div className="flex gap-6 mt-4">
         <div className="flex items-center gap-2">
           <Heart className="size-5 text-foreground/70" /> 12.5k
         </div>
